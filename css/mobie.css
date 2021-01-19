@@ -1,0 +1,490 @@
+body {
+  width: 100vw;
+}
+#m_nav {
+    position: fixed; 
+    top: 0; 
+    width: 100vw;
+  height: 13.636vw;
+  padding-left: 5.341vw;
+  padding-right: 5.341vw;
+  box-shadow: 0 0.568vw 0.795vw 0 rgba(0, 0, 0, 0.15);
+  background-color: #ffffff;
+  z-index: 1;
+}
+#mlogo {
+  width: 33.75vw;
+  height: 10.795vw;
+}
+
+#mmenubutton {
+  width: 5.682vw;
+  height: 4.545vw;
+}
+
+#news {
+  position: relative;
+  width: 89.773vw;
+  height: 7.159vw;
+  background-image: url(/image/top_news.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: calc(2.614vw + 13.636vw);
+}
+#news span{
+    top: 0.795vw;
+    position: absolute;
+    left: 31.136vw;
+    font-size: 3.636vw;
+}
+#main_video {
+  width: 100vw;
+  height: 56.25vw;
+  margin-top: -9.773vw;
+  /* height: 67.045vw; */
+  /* height: 81.818vw; */
+}
+
+#div_video_bottom {
+  margin-top: -4.886vw;
+  position: relative;
+  
+}
+#img_video_bottom {
+    width: 100vw;
+    
+}
+#video_bottom_text{
+    background-color: #F7F7F7;
+    padding-top: 7.273vw;
+}
+
+#video_bottom_text > div{
+    width: 77.045vw;
+}
+
+#video_bottom_text h1{
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 4.545vw;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.455vw;
+    color: #93434e;
+}
+#video_bottom_text p{
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 3.182vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.318vw;
+    text-align: left;
+    color: #727171;
+}
+
+#watch_more button{
+    padding: 1.875vw 4.932vw 1.534vw 5.068vw;
+    border-radius: 3.977vw;
+    background-color: #93434e;
+    width: 30.682vw;
+    height: 7.955vw;
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 3.182vw;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    /* letter-spacing: 0.318vw; */
+    text-align: left;
+    color: #ffffff;
+    margin-left: 11.932vw;
+    margin-top: 4.318vw;
+}
+
+#div_sleepQ{
+    width: 100vw;
+    height: 194.773vw;
+    background-image: url(/image/sleepQ.png);
+    background-color: #F7F7F7;
+    background-size: contain;
+    background-repeat: no-repeat;
+  padding-top: 43.182vw;
+}
+#div_sleepQ h1{
+  font-family: NotoSerifCJKtc-B5pc-H;
+  font-size: 4.545vw;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 0.455vw;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 6.136vw;
+}
+#div_sleepQ .item{
+    width: 76.477vw;
+    height: 8.068vw;
+    background-image: url(/image/sleepQitem.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 3.182vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.318vw;
+    text-align: left;
+    color: #727171;
+    padding: 1.705vw 0 0 15.341vw;
+    margin-bottom: 4.159vw;
+}
+#div_sleepQ #ans{
+    margin-top: 3.409vw;
+    width: 76.227vw;
+    height: 11.489vw;
+    padding: 1.705vw 15.568vw;    
+    border-radius: 1.705vw;
+    background-color: #93434e;
+}
+#div_sleepQ #ans span{
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 2.727vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.273vw;
+    text-align: center;
+    color: #ffffff;
+}
+#datasource{
+    margin-top: 2.955vw; 
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 2.727vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.273vw;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+#div_goodsleepneed{
+    position: relative;
+    width: 100vw;
+    height: 159.432vw;
+    background-image: url(/image/goodsleepneed.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#div_goodsleepneed h1{
+    position: absolute;
+    top: 12.5vw;
+    left: 11.818vw;
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 4.545vw;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.455vw;
+    text-align: left;
+    color: #93434e;
+}
+#gsnp1{
+    position: absolute;
+    top: 22.727vw;
+    left: 23.227vw;
+    width: 76.25vw;
+    height: 94.659vw;
+}
+
+#gsnp2{
+    position: absolute;
+    bottom: -12.841vw;
+    left: -14.545vw;
+    width: 97.045vw;
+    height: 119.659vw;
+}
+#div_bedhabit{
+    width: 100vw;
+    height: 122.727vw;
+    background-color: #93434e;
+}
+#div_bedhabit h1{
+    padding-top: 11.364vw;
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 4.545vw;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.455vw;
+    text-align: center;
+    color: #ffffff;
+}
+#div_forudesign{
+    width: 100vw;
+    height: 211.818vw;
+    background-color: #F7F7F7;
+    padding: 15.795vw 11.932vw 0 11.932vw;
+}
+#div_forudesign h1{
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 4.545vw;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.455vw;
+    text-align: left;
+    color: #93434e;
+
+}
+#div_forudesign p{
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 3.182vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.318vw;
+    text-align: left;
+    color: #727171;
+
+}
+#div_forudesign #goods{
+    width: 76.136vw;
+    height: 27.386vw;
+    margin-top: 5.682vw;
+}
+#div_forudesign #goods2{
+    width: 100vw;
+    height: 95.909vw;
+    margin-left: -11.932vw;
+}
+
+#div_3patent{
+    padding: 10.227vw 0;
+    width: 100vw;
+    height: 186.023vw;
+    background-color: #F7F7F7;
+    padding-left: 14.489vw;
+    padding-right: 14.489vw;
+}
+#div_3patent img{
+    margin-bottom: 10.227vw;
+}
+#div_3patent #i3p1{
+    width: 70.909vw;
+    height: 14.773vw;
+}#div_3patent #i3p2{
+    width: 70.909vw;
+    height: 35.795vw;
+}#div_3patent #i3p3{
+    width: 70.909vw;
+    height: 38.636vw;
+}#div_3patent #i3p4{
+    width: 70.909vw;
+    height: 37.841vw;
+}
+#div_6point{
+    width: 100vw;
+    height: 232.955vw;
+    background-image: url(/image/sixpoint.png);
+    background-color: #F7F7F7;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#i6ptitle{
+    height: 34.886vw;
+    width:39.432vw;
+    padding-top: 13.068vw;
+}
+#div_6point .item{
+    padding: 6.818vw 0;
+}
+
+.lie{
+    width: 100vw;
+    height: 96.136vw;
+  background-color: #b1808233;
+  padding-bottom: 11.364vw;
+}
+
+#div_9good{
+    width: 100vw;
+    height: 125.341vw;
+    background-color: #F7F7F7;
+}
+#div_9good .title{
+    padding: 13.068vw 0;
+    width: 40.227vw;
+    height: 48.636vw;
+}
+#goodpillow{
+    width: 100vw;
+    height: 172.727vw;
+    background-image: url(/image/goodpillow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F7F7F7;
+}
+#goodpillow img{
+    width: 90.455vw;
+    height: 161.932vw;
+    padding-top: 51.136vw;
+}
+#div_5circlepic{
+    width: 100vw;
+    height: 227.273vw;
+    background-color: #F7F7F7;
+}
+#div_5circlepic img{
+    width: 100vw;
+    padding: 21.023vw 0;
+}
+#div_realtest{
+    width: 100vw;
+    height: 158.182vw;
+    background-image: url(/image/realtest.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F7F7F7;
+}
+#div_realtest h1{
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 4.545vw;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.909vw;
+    text-align: center;
+    color: #f7f7f7;
+    padding-top: 24.432vw;
+    padding-bottom: 11.364vw;
+}
+#div_mit{
+    width: 100vw;
+    height: 345.341vw;
+    background-image: url(/image/mit.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F7F7F7;
+}
+
+#div_forupillow{
+    width: 100vw;
+    height: 87.614vw;
+    background-image: url(/image/forupillow.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F7F7F7;
+}
+
+
+#product{
+    
+    background-color: #F7F7F7;
+}
+#productTitle{
+    width: 100vw;
+    height: 5.114vw;
+    background-image: url(/image/pillowPrice.png);
+    background-color: #F7F7F7;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 9.091vw;
+    padding-bottom: 9.091vw;
+}
+
+#product img{
+border-radius: 4.091vw;
+    width: 36.818vw;
+    height: 56.023vw;
+}
+
+#div_story{
+    padding: 9.091vw 11.818vw;
+    background-color: #F7F7F7;
+    width: 100vw;
+    height: 92.045vw;
+}
+#div_story h1{
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 4.545vw;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.909vw;
+    color: #93434e;
+    margin-bottom: 4.773vw;
+}
+#div_story p{
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 3.182vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.318vw;
+    color: #727171;
+}
+#div_story_pic{
+    width: 100vw;
+    height: 98.523vw;
+    background-image: url(/image/story.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F7F7F7;
+}
+
+#div_questions{
+    width: 100vw;
+    height: 100vw;
+    background-color: #F7F7F7;
+
+}
+
+footer #ftop{
+    width: 100vw;
+    height: 34.091vw;
+    background-color: #93434e;
+}
+footer #ftop p{
+    font-family: NotoSerifCJKtc-B5pc-H;
+    font-size: 3.182vw;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: 0.636vw;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+footer #fbotton {
+    background-color: #75323c;
+    height: 6.818vw;
+}
+footer #fbotton p{
+    font-family: TaipeiSansTCBeta;
+    font-size: 1.932vw;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.76;
+    letter-spacing: 0.097vw;
+    text-align: center;
+    color: #f2dcd5;
+}
