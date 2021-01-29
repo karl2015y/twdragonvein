@@ -1,0 +1,2698 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta http-equiv="pragram" content="no-cache" />
+    <meta name="apple-touch-fullscreen" content="yes" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+    />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-orientation" content="portrait" />
+    <meta name="full-screen" content="yes" />
+    <meta name="x5-fullscreen" content="true" />
+    <title>龍師傅健康枕</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+
+    <style type="text/css">
+      @font-face {
+        font-family: NotoSerifCJKtc-Light;
+        src: url(NotoSerifCJKtc-Light.otf) format("opentype");
+      }
+
+      * {
+        font-family: NotoSerifCJKtc-Light;
+        margin: 0;
+        padding: 0;
+      }
+      .videos {
+        width: 88vw;
+        max-width: 69vw;
+        margin-bottom: 1rem;
+      }
+
+      .demo_img {
+        /*display: none;
+			position: absolute;
+			left: 0;
+		    height: 116.528vw;
+			width: 1440px;
+			background-image: url(3.jpg);
+			z-index: 3;
+			background-size: contain;
+			opacity: 0.6;*/
+      }
+
+      .wrap {
+        background-color: #f5f5f5;
+        overflow-x: hidden;
+      }
+
+      .top1 {
+        margin-top: -22.556vw;
+        width: 100%;
+        height: 61.59vw;
+        background: url(png/1/baclground_2.png);
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        z-index: 2;
+        position: relative;
+      }
+
+      .left1 {
+        margin-top: -11.361vw;
+        margin-left: 6.528vw;
+        width: 44.792vw;
+        height: 29.618vw;
+        position: relative;
+      }
+
+      .left1 > img {
+        width: 100%;
+      }
+
+      .right1 {
+        margin-top: -5.208vw;
+        width: 34.306vw;
+        /* border: 0.267vw solid red; */
+      }
+
+      .right1 > .title {
+        margin-bottom: 1.611vw;
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.194vw;
+        text-align: left;
+        color: #93434e;
+      }
+
+      .right1 > .text {
+        font-size: 1.25vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: 0.125vw;
+        text-align: left;
+        color: #727171;
+      }
+
+      .right1 > .btn {
+        font-size: 1.25vw;
+        width: 11.556vw;
+        height: 3.285vw;
+        /* line-height: 3.285vw; */
+        background: url(png/1/top_bar_3.png);
+        background-size: 100% 100%;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 2.653vw;
+        background-repeat: no-repeat;
+      }
+
+      .top2 {
+        margin-top: -18.938vw;
+        padding-top: 6.674vw;
+        width: 100%;
+        height: 51.792vw;
+        background: url(png/1/background_3.png);
+        background-size: 100% 100%;
+        position: relative;
+        z-index: 2;
+      }
+
+      .titleTop {
+        height: 2.778vw;
+        /* margin: 2.236vw 28.549vw 0 2.944vw; */
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        text-align: center;
+        color: #ffffff;
+        margin-bottom: 4.924vw;
+      }
+
+      .contents {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+      }
+
+      .navs {
+        width: 38.299vw;
+        height: 3.125vw;
+        margin-bottom: 1.556vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .navs > .text1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 1.861vw;
+        height: initial;
+      }
+
+      .navs > .text1 > img {
+        width: 100%;
+      }
+
+      .navs > .text2 {
+        display: inline-block;
+        width: 33.056vw;
+        height: 3.125vw;
+        line-height: 3.125vw;
+        border-radius: 13.333vw;
+        background-color: #ffffff;
+        vertical-align: middle;
+        padding-left: 2.403vw;
+        font-size: 1.25vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: 0.125vw;
+        text-align: left;
+        color: #727171;
+      }
+
+      .footTop {
+        width: 44.458vw;
+        line-height: 4.653vw;
+        border-radius: 0.694vw;
+        background-color: #93434e;
+        text-align: center;
+        color: #ffffff;
+        margin: 0 auto;
+        margin-top: 1.93vw;
+        height: 4.653vw;
+
+        font-size: 1.25vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+
+        letter-spacing: 0.125vw;
+        text-align: center;
+      }
+
+      .text {
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        font-size: 0.972vw;
+        line-height: 2.14;
+        letter-spacing: 0.097vw;
+        text-align: center;
+        color: #f2dcd5;
+        margin-top: 0.396vw;
+      }
+
+      .xian {
+        width: 45.549vw;
+        height: 3.66vw;
+        background: url(png/1/background_3_1.png);
+        background-size: 100% 100%;
+        position: relative;
+        top: -5.208vw;
+        left: 55%;
+      }
+
+      .top3 {
+        width: 100%;
+        height: 91.667vw;
+        background: url(png/1/background1.png);
+        background-size: 100% 100%;
+        margin-top: 2.5vw;
+      }
+
+      .topTop3 {
+        height: 106.667vw;
+        /* border: 0.267vw solid red; */
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .leftTop {
+        width: 70%;
+        margin-left: 3%;
+        position: relative;
+        z-index: 2;
+      }
+
+      .leftTop > .Lleft {
+        width: 16vw;
+        height: 10.667vw;
+        position: relative;
+        top: 0vw;
+        left: 0vw;
+      }
+
+      .leftTop > .Rleft {
+        width: 26.667vw;
+        height: 32vw;
+      }
+
+      .leftImg {
+        width: 50.277vw;
+        position: absolute;
+        top: -16.458vw;
+        left: -3.472vw;
+      }
+
+      .rightTop {
+        width: 100%;
+        /* border: 0.267vw solid red; */
+      }
+
+      .rightTopTitle {
+        text-align: left;
+        margin-left: 11.875vw;
+        height: 2.778vw;
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        color: #93434e;
+        margin-top: 2.431vw;
+      }
+
+      .rightTopContent {
+        margin-top: 3.917vw;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .rightTopContent > .navs {
+        height: 14.069vw;
+        width: 20.833vw;
+        display: flex;
+        justify-content: center;
+
+        flex-direction: column;
+        text-align: center;
+        /* border: 0.267vw solid red; */
+      }
+
+      .rightTopContent > .navs > img {
+        margin: 0 auto;
+      }
+
+      .rightTopContent > .navs > .navsTExt {
+        width: 14.069vw;
+        height: 5.014vw;
+        font-size: 1.25vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: 0.125vw;
+        text-align: left;
+        color: #727171;
+        margin: 1.667vw auto 0 auto;
+      }
+
+      .botTop3 {
+        color: #ffffff;
+
+        margin-top: -53.264vw;
+        margin-bottom: 3.958vw;
+
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .botTop3Cont {
+        width: 83%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .botTop3Cont > img {
+        width: 26.559vw;
+        height: 22.39vw;
+      }
+
+      .botTop3Cont > .contNav {
+        width: 30%;
+      }
+
+      .contNav {
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+      }
+
+      .contNavTitle {
+        margin-top: 1.903vw;
+        margin-left: 3.472vw;
+        font-size: 1.458vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.292vw;
+        text-align: left;
+        color: #ffffff;
+      }
+
+      .contNavText {
+        margin-left: 2.083vw;
+        margin-top: 1.25vw;
+        font-size: 1.319vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: 0.125vw;
+        text-align: left;
+        color: #ffffff;
+        z-index: 2;
+      }
+
+      .top4 {
+        width: 81.111vw;
+        height: 42.667vw;
+        margin-top: 21.389vw;
+        margin-left: auto;
+        margin-right: auto;
+        background: url(png/1/background_1.png);
+        background-size: 100% 100%;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .leftTop4 {
+        width: 55%;
+        margin-left: 1%;
+      }
+
+      .Top4Title {
+        width: 32.986vw;
+        height: 2.778vw;
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        text-align: left;
+        color: #93434e;
+      }
+
+      .top4Text {
+        margin-top: 5.333vw;
+        width: 31.931vw;
+        height: 18.257vw;
+        margin: 2.104vw 0.361vw 1.493vw 0.014vw;
+        font-family: NotoSerifCJKtc-B5pc-H;
+        font-size: 1.25vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: 0.125vw;
+        text-align: left;
+        color: #727171;
+      }
+
+      .top5 {
+        margin-top: 12.014vw;
+        padding-bottom: 5.625vw;
+      }
+
+      .rightTop4 {
+        width: 45%;
+      }
+
+      .rightTop4 > img {
+        width: 47.917vw;
+        position: relative;
+        top: -3.75vw;
+        left: -9.444vw;
+      }
+
+      .leftTop4TagGroup {
+        display: flex;
+        margin-bottom: 1.389vw;
+      }
+
+      .leftTop4Tag {
+        width: 9vw;
+        height: 2.646vw;
+        border-radius: 1.326vw;
+        background-color: #b1808247;
+        font-size: 1.25vw;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.646vw;
+        letter-spacing: 0.125vw;
+        text-align: center;
+        color: #93434e;
+        margin-left: 0.4vw;
+        margin-right: 0.4vw;
+      }
+
+      .top5Top {
+        width: 32.014vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .leftTop5 {
+        vertical-align: middle;
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        text-align: left;
+        color: #93434e;
+      }
+
+      .leftCenter {
+        width: 4.861vw;
+        height: 8.09vw;
+        margin-top: -3.142vw;
+      }
+
+      .leftCenter > img {
+        width: 100%;
+        vertical-align: middle;
+      }
+
+      .botTop5Cont1 {
+        width: 83.819vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3.819vw;
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .botTop5Cont1 > .navsTop5 {
+        width: 33%;
+      }
+
+      .navsTop5 > .top5Title {
+        margin-top: 2.667vw;
+        font-size: 1.458vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.292vw;
+        text-align: center;
+        color: #b18082;
+      }
+
+      .navsTop5 > .top5Text {
+        width: 20.625vw;
+        margin-top: 0;
+        font-size: 1.25vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: 0.125vw;
+        text-align: center;
+        color: #727171;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .top6 {
+        width: 100%;
+        padding-top: 10.667vw;
+        height: 95.903vw;
+        background: url(png/1/background_2.png);
+        background-size: 100% 100%;
+      }
+
+      .top6Top {
+        margin: 0 auto;
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        text-align: center;
+        color: #f7f7f7;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 25.694vw;
+      }
+
+      .top6Top > span {
+        display: inline-block;
+        width: 4vw;
+        height: 4vw;
+        border: 0.267vw solid #ffffff;
+        vertical-align: bottom;
+      }
+
+      .top6Top > img {
+        padding-top: 4.167vw;
+        width: 4.444vw;
+        vertical-align: bottom;
+        margin: 0 2.083vw;
+      }
+
+      .top6Content {
+        width: 93%;
+
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 12.292vw;
+        margin-right: 12.292vw;
+      }
+
+      .navsTop6 {
+        width: 27.431vw;
+        margin-top: 2.292vw;
+      }
+
+      .navsTop6 > img {
+        width: 76%;
+      }
+
+      .navsTop6 > .tops6Text {
+        width: 19.306vw;
+        font-size: 1.458vw;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: 0.292vw;
+        text-align: left;
+        color: #ffffff;
+        margin-top: 0.694vw;
+        margin-left: 0.972vw;
+      }
+
+      .topsTwo {
+        margin-top: 10.764vw;
+      }
+
+      .top7 {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .top7Left {
+        width: 50%;
+        height: 29.333vw;
+      }
+
+      .top7Left > img {
+        width: 100%;
+        height: 100%;
+      }
+
+      .top7Right {
+        width: 50%;
+        height: 29.333vw;
+        background: url(png/1/back_1.png);
+        background-size: 100% 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+      }
+
+      .top7Right > .top7RightTitle {
+        font-size: 1.458vw;
+        font-weight: 900;
+        letter-spacing: 0.292vw;
+        color: #b18082;
+        margin-left: 9.722vw;
+      }
+
+      .top7Right > .top7RightText {
+        font-size: 1.25vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: 0.125vw;
+        text-align: left;
+        color: #727171;
+        margin-left: 9.722vw;
+      }
+
+      .top {
+        display: flex;
+        padding-top: 2.674vw;
+        padding-left: 1.84vw;
+        padding-right: 3.924vw;
+        height: 64.264vw;
+        /* background-image: url(png/1/back.png); */
+        background-size: cover;
+        background-position: center;
+        position: relative;
+      }
+
+      .top.fixtop {
+        position: fixed;
+        background-color: black;
+        height: 5vw;
+        width: 100vw;
+        z-index: 100;
+        background-image: unset;
+        overflow: hidden;
+      }
+
+      .top_opacity {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        opacity: 0.4;
+        z-index: 1;
+        background-color: white;
+        top: 0;
+        left: 0;
+      }
+
+      .top_title {
+        position: absolute;
+        top: 21.91vw;
+        left: 40.764vw;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.294vw;
+        text-align: left;
+        color: white;
+        z-index: 2;
+        font-size: 1.458vw;
+      }
+
+      .logo {
+        width: 14.111vw;
+        height: 50%;
+        margin-left: 1%;
+        margin-top: -0.854vw;
+        z-index: 2;
+      }
+
+      .logo > img {
+        width: 100%;
+        vertical-align: middle;
+      }
+
+      .tel {
+        text-align: center;
+        width: 13.576vw;
+        height: 2.312vw;
+        line-height: 2.2;
+        background: url(png/1/top_bar.png);
+        background-size: 100% 100%;
+        color: #ffffff;
+        margin-left: 6.882vw;
+        font-size: 1.111vw;
+        z-index: 2;
+        letter-spacing: 0.069vw;
+      }
+
+      .top_bar {
+        width: 29.451vw;
+        height: 2.312vw;
+        background: url(png/1/top_bar_2.png);
+        background-size: 100% 100%;
+        color: #666666;
+        margin-left: 2.326vw;
+        font-family: NotoSerifCJKtc-B5pc-H;
+        font-size: 1.111vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.111vw;
+        z-index: 2;
+      }
+
+      .top_bar > div {
+        margin-top: 0.604vw;
+        height: 1.6vw;
+        overflow-y: hidden;
+      }
+
+      .top_bar_title {
+        margin-left: 3.646vw;
+
+        width: 4.792vw;
+        height: 1.528vw;
+
+        text-align: left;
+        color: #ffffff;
+      }
+
+      .top_bar_text {
+        margin-left: 1.389vw;
+      }
+
+      .top_link {
+        display: flex;
+        margin-top: 0.354vw;
+        margin-left: 5.674vw;
+        margin-right: 3.542vw;
+        height: 1.528vw;
+        width: 11.019vw;
+        z-index: 2;
+      }
+
+      .top_link > a {
+        font-size: 1.09vw;
+        color: white;
+        text-decoration: none;
+        white-space: nowrap;
+      }
+
+      .top_link_2 {
+        margin-left: 2.014vw;
+      }
+
+      .top_btn {
+        width: 6.674vw;
+        text-align: center;
+        height: 1.681vw;
+        line-height: 1.2;
+        background: url(png/1/top_bar_3.png);
+        background-size: 100% 100%;
+        color: #ffffff;
+        font-size: 1.111vw;
+        padding-top: 0.2vw;
+        z-index: 2;
+      }
+
+      .top8Top {
+        width: 40vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 7.431vw;
+      }
+
+      .top8Top > span {
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        text-align: left;
+        color: #93434e;
+      }
+
+      .top8Top > img {
+        width: 6.528vw;
+        margin: 0vw 1.181vw;
+      }
+
+      .bottom_bar {
+        margin: 3.597vw auto;
+        text-align: center;
+        color: #ffffff;
+        width: 37.104vw;
+        height: 3.722vw;
+        line-height: 3.722vw;
+        border-radius: 1.861vw;
+        background-color: #93434e;
+        letter-spacing: 0.208vw;
+        font-size: 1.458vw;
+        font-weight: 900;
+      }
+
+      .intro_1 {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+      }
+
+      .intro_1 > img {
+        width: 68.056vw;
+        height: 29.174vw;
+      }
+
+      .intro_1_text {
+        width: 62.5vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1.319vw;
+        font-size: 1.25vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: 0.125vw;
+        text-align: left;
+        color: #727171;
+        letter-spacing: 0vw;
+        margin-bottom: 10.556vw;
+      }
+
+      .intro_2 {
+        width: 100%;
+      }
+
+      .intro_2 > img {
+        width: 100%;
+      }
+
+      .intro_3 {
+        margin-top: -40.764vw;
+      }
+
+      .innerIntro {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 26.667vw;
+      }
+
+      .intro_3 > .innerIntro > .introLeft {
+        width: 25%;
+        /* border: 0.267vw solid red; */
+        margin: 1%;
+      }
+
+      .intro_3 > .innerIntro > .introLeft > .introTitle {
+        color: #ffffff;
+        font-size: 3.733vw;
+      }
+
+      .intro_3 > .innerIntro > .introLeft > .introText {
+        color: #ffffff;
+        font-size: 3.2vw;
+        line-height: 5.333vw;
+      }
+
+      .intro_3 > .innerIntro > .introCenter {
+        width: 25%;
+        color: #ffffff;
+        font-size: 3.2vw;
+      }
+
+      .intro_3 > .innerIntro > .introRight {
+        width: 25%;
+        color: #ffffff;
+        font-size: 3.2vw;
+      }
+
+      .top9 {
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .circcle {
+        width: 20.347vw;
+        margin: 1.528vw 2%;
+      }
+
+      .circcle > img {
+        width: 100%;
+      }
+
+      .circcle > .box {
+        margin-top: -1.25vw;
+        width: 21.049vw;
+        height: 15.625vw;
+        border-radius: 2.133vw;
+        background: #ffffff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .circcle > .box > .boxTitle {
+        width: 7.014vw;
+        font-family: NotoSerifCJKtc-B5pc-H;
+        font-size: 1.458vw;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.71;
+        letter-spacing: 0.292vw;
+        text-align: center;
+        color: #b18082;
+      }
+
+      .circcle > .box > .boxText {
+        width: 13.889vw;
+        font-size: 1.25vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: 0.125vw;
+        text-align: left;
+        color: #727171;
+      }
+
+      .top10 {
+        width: 100%;
+        height: 120vw;
+        background: url(png/2/background_2.png);
+        background-size: 100% 100%;
+      }
+
+      .top10Title {
+        text-align: center;
+        color: #ffffff;
+        padding-top: 13.889vw;
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        margin-bottom: 5.694vw;
+      }
+
+      .top10Contenter {
+        padding-left: 17.014vw;
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+
+        /* border: 0.267vw solid red; */
+      }
+
+      .top10Nav {
+        width: 35.611vw;
+        color: #ffffff;
+        text-align: center;
+        font-size: 1.458vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.292vw;
+        text-align: center;
+        margin-right: 1.389vw;
+      }
+
+      .top10Contenter1 {
+        width: 77%;
+        margin-left: 10.417vw;
+        margin-top: 2.083vw;
+        margin-bottom: 2.986vw;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .NavLeft1 {
+        height: 14.597vw;
+        border-radius: 2.667vw;
+        background-color: #ffffff;
+        color: #93434e;
+        text-align: center;
+        padding: 0 1.111vw;
+        margin-top: 3.889vw;
+        margin-left: 0.694vw;
+        font-size: 1.458vw;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 2.569vw;
+        width: 0rem;
+      }
+
+      .NavCenter1Left {
+        width: 38.403vw;
+        height: 22.639vw;
+        margin-left: 3.472vw;
+      }
+
+      .top10 img {
+        width: 100%;
+      }
+
+      .NavCenter1Middle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -1.181vw;
+        margin-right: -3.472vw;
+        width: 5.764vw;
+        z-index: 1;
+        margin-top: -1.5vw;
+      }
+
+      .NavCenter1Right {
+        width: 36vw;
+        height: 22.292vw;
+        opacity: 0;
+        /*	margin-left: 2.778vw;*/
+      }
+
+      .NacCenter1Text {
+        margin-top: -3.125vw;
+        text-align: center;
+        font-size: 1.458vw;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.073vw;
+        text-align: center;
+        color: #727171;
+        letter-spacing: 0.139vw;
+      }
+
+      .NavCenter1 > img {
+        width: 100%;
+      }
+
+      .top11 {
+        width: 100%;
+        height: 112vw;
+        background: url(png/2/background_3.png);
+        background-size: 100% 100%;
+        margin-top: 5.333vw;
+        text-align: center;
+      }
+
+      .top11 > img {
+        width: 83.611vw;
+        margin-top: 3.125vw;
+      }
+
+      .top11Title {
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 1.042vw;
+      }
+
+      .top11Text {
+        font-size: 1.25vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: 0.125vw;
+        text-align: center;
+        color: #ffffff;
+        margin-top: 2.361vw;
+        width: 32.778vw;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .top12 {
+        width: 100%;
+        height: 98.667vw;
+        padding-top: 16vw;
+        background: url(png/2/background_4.png);
+        background-size: 100% 100%;
+        margin-top: -7.111vw;
+        text-align: center;
+        background-color: #b28082;
+      }
+
+      .top12Title {
+        text-align: center;
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        color: #93434e;
+        margin-bottom: 3.819vw;
+      }
+
+      .content12 {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .nav12 {
+        width: 45%;
+      }
+
+      .nav12 > img {
+        width: 100%;
+      }
+
+      .nav12Text {
+        width: 18.681vw;
+        height: 4.167vw;
+        text-align: center;
+        background: url(png/2/pillow_bar_2.png);
+        background-size: 100% 100%;
+        line-height: 4.167vw;
+        margin: 1.458vw 8.542vw;
+        font-size: 1.458vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: 0.292vw;
+        color: white;
+      }
+
+      .nav12Text1 {
+        font-size: 1.25vw;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: 0.25vw;
+        text-align: center;
+        color: #727171;
+        margin: -0.347vw 6.042vw 5.069vw 12.639vw;
+      }
+
+      .header {
+        width: 100%;
+        height: 8.194vw;
+        line-height: 9.6vw;
+        text-align: center;
+      }
+
+      .header > .text {
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        text-align: left;
+        color: #93434e;
+        margin: 0 2.778vw;
+      }
+
+      .line {
+        display: inline-block;
+        width: 31.667vw;
+        height: 0.267vw;
+        border-top: 0.267vw solid #93434e;
+        vertical-align: 0.8vw;
+      }
+
+      .container {
+        width: 72.014vw;
+        margin: 2.667vw auto;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .container > .navContainer {
+        width: 16.181vw;
+        height: 20.833vw;
+        background-size: 100% 100%;
+        border-radius: 2.667vw;
+        text-align: center;
+
+        font-size: 3.2vw;
+        padding-top: 4.028vw;
+      }
+
+      .container > .navContainer > .containTitle {
+        font-size: 1.458vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.292vw;
+        text-align: center;
+        color: #93434e;
+      }
+
+      .navContainer4 {
+        background: url(png/2/square_1.png);
+        color: #93434e;
+      }
+
+      .navContainer1 {
+        background: url(png/2/square_2.png);
+        color: #93434e;
+      }
+
+      .navContainer2 {
+        background: url(png/2/square_3.png);
+        color: #ffffff;
+      }
+
+      .navContainer3 {
+        background: url(png/2/square_4.png);
+        color: #ffffff;
+      }
+
+      .navContainer2 > div,
+      .navContainer3 > div {
+        color: #ffffff !important;
+      }
+
+      .xian1 {
+        width: 10.417vw;
+        height: 0.069vw;
+        border-top: 0.069vw solid #93434e;
+        margin: 1vw auto;
+      }
+
+      .qian {
+        text-decoration: line-through;
+        font-size: 1.458vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.073vw;
+        text-align: left;
+        color: #93434e;
+        margin: 1.806vw 5vw 0.347vw 5vw;
+      }
+
+      .qian1 {
+        font-size: 1.944vw;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.097vw;
+        text-align: center;
+        color: #93434e;
+        margin: 0.625vw 2.472vw;
+      }
+
+      .qian1 > span {
+        font-size: 1.25vw;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2.333vw;
+        letter-spacing: 0.063vw;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .qianOrg {
+        font-size: 1.458vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.073vw;
+        text-align: center;
+        color: #f2dcd5;
+      }
+
+      .containBtn {
+        background-color: #ffffff;
+        border-radius: 2.667vw;
+        margin: 0 auto;
+        margin-top: 2.75vw;
+        width: 10.694vw;
+        height: 3.611vw;
+        font-size: 1.458vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 3.611vw;
+        letter-spacing: 0.292vw;
+        text-align: center;
+        color: #93434e;
+      }
+
+      .navContainer2 .containBtn,
+      .navContainer3 .containBtn {
+        color: #93434e !important;
+        margin-top: 0.4vw;
+      }
+
+      .wrapBtn {
+        width: 18.167vw;
+        height: 3.444vw;
+        border-radius: 1.694vw;
+        background-color: #93434e;
+        font-size: 1.458vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 3.444vw;
+        letter-spacing: 0.292vw;
+        text-align: center;
+        color: #ffffff;
+        margin: -9.028vw auto 5.556vw auto;
+      }
+
+      .top13 {
+        padding-top: 10.764vw;
+        width: 87.292vw;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .top13 > .top13Left {
+        width: 42.222vw;
+      }
+
+      .top13 > .top13Left > img {
+        width: 100%;
+      }
+
+      .top13 > .top13Right {
+        width: calc(100% - 46.181vw);
+        padding-top: 3.819vw;
+      }
+
+      .top13 > .top13Right > .top13RightTitle {
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        text-align: left;
+        color: #93434e;
+      }
+
+      .top13 > .top13Right > .top13RightText {
+        margin-top: 1.667vw;
+        font-size: 1.25vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.67;
+        letter-spacing: 0.125vw;
+        text-align: left;
+        color: #727171;
+      }
+
+      .top14 {
+        margin-top: 9.028vw;
+        margin-bottom: 17vw;
+        width: 100%;
+        background: url(png/3/background_1.png);
+        background-size: 100% 100%;
+      }
+
+      .top14Titel {
+        font-size: 1.944vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.389vw;
+        text-align: center;
+        color: #93434e;
+        margin-bottom: 4.028vw;
+      }
+
+      .top14Top {
+        width: 83vw;
+        height: 7.944vw;
+        margin: 0vw auto 1.042vw auto;
+        border: 0.267vw solid #93434e;
+      }
+
+      .titlesTop14 {
+        height: 3.472vw;
+        background-color: #93434e;
+      }
+
+      .titlesTop14 {
+        padding: 0 2%;
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+        font-size: 3.733vw;
+      }
+
+      .titlesTop14 > span {
+        font-size: 1.25vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 3.472vw;
+        letter-spacing: 0.063vw;
+        text-align: left;
+        color: #ffffff;
+      }
+
+      .titlesTop14 > img {
+        width: 1.111vw;
+        height: 0.347vw;
+        margin: auto 0;
+      }
+
+      .textTop14 {
+        display: flex;
+        padding: 1% 2%;
+        color: #333333;
+        font-size: 3.467vw;
+        height: 4.931vw;
+      }
+
+      .textTop14 > span {
+        font-size: 1.111vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: 0.056vw;
+        text-align: left;
+        color: #4d4d4d;
+      }
+
+      .titlesTops14 {
+        width: 86%;
+        margin: 0 auto;
+        padding: 0 2%;
+        display: flex;
+        justify-content: space-between;
+        color: #ffffff;
+        font-size: 3.733vw;
+        height: 6.667vw;
+        background-color: #93434e;
+        margin-top: 2.667vw;
+      }
+
+      .titlesTops14 > span {
+        margin-top: 0.8vw;
+      }
+
+      .titlesTops14 > img {
+        width: 2.667vw;
+        height: 2.667vw;
+        margin-top: 2.133vw;
+      }
+
+      .top14Top.closeM {
+        height: 3.472vw;
+        border: 0;
+      }
+
+      .top14Top.closeM > .textTop14 {
+        display: none;
+      }
+
+      .top14Top.closeM .openIcon {
+        display: none;
+      }
+
+      .top14Top.closeM .closeIcon {
+        display: block;
+        width: 1.111vw;
+        height: 1.111vw;
+      }
+
+      .top14Top .closeIcon {
+        display: none;
+      }
+
+      .top14Top .openIcon {
+        display: block;
+        width: 1.111vw;
+        height: 0.417vw;
+      }
+
+      .top15 {
+        width: 100%;
+        height: 10.417vw;
+        background-color: #93434e;
+        position: relative;
+      }
+
+      .top15Title {
+        padding: 3.194vw 0 1.736vw 0;
+        text-align: center;
+        color: #ffffff;
+        font-size: 1.111vw;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.222vw;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .top15Cont {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .top15Cont > span {
+        font-size: 0.972vw;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.2;
+        letter-spacing: 0.194vw;
+        text-align: center;
+        color: #ffffff;
+        letter-spacing: 0.313vw;
+      }
+
+      .top16 {
+        width: 100%;
+        height: 3.333vw;
+        line-height: 3.333vw;
+        border-top: 0.133vw solid #ffffff;
+        background-color: #75323c;
+        text-align: center;
+        color: #ffffff;
+        font-size: 0.833vw;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: 0.042vw;
+      }
+    </style>
+  </head>
+
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/jquery.scrollme.min.js"></script>
+    <div class="wrap">
+      <div class="top">
+        <div class="top_opacity bg-secondary"></div>
+        <div class="logo">
+          <img src="png/1/logo.png" />
+        </div>
+        <div class="tel">已有156人甜美入夢</div>
+        <div class="top_bar">
+          <div>
+            <span class="top_bar_title">最新公告</span>
+            <span class="top_bar_text">龍師傅官網全新上線，凡下單購買</span>
+          </div>
+        </div>
+        <div class="top_link">
+          <a class="top_link_1" href="">經銷據點</a>
+          <a class="top_link_2" href="#question">常見問題</a>
+        </div>
+        <div class="top_btn">
+          <a style="color: white; text-decoration-line: unset" href="#buy"
+            >立即購買</a
+          >
+        </div>
+      </div>
+      <video
+        muted
+        style="width: 100%; position: absolute; top: 0"
+        class="shadow-lg"
+        id="main_video"
+      >
+        <source src="/video/1.mov" type="video/mp4" />
+      </video>
+
+      <div class="top1">
+        <div class="left1">
+          <img
+            style="
+              position: absolute;
+              width: 26vw;
+              top: calc(50% - 9vw);
+              left: calc(50% - 15vw);
+              border-radius: 50rem !important;
+              opacity: 0.6;
+            "
+            src="png/1/back.png"
+          />
+          <img src="png/1/player.png" />
+        </div>
+        <div class="right1">
+          <div class="title">您有多久沒有一覺好眠了呢？</div>
+          <div class="text">
+            生活壓力大，精神緊繃翻來覆去就是睡得不安穩，
+            <br />
+            想要好好睡一覺都成了奢侈？
+            <br />
+            <br />
+
+            讓龍師傅來解決您的睡眠問題...
+          </div>
+
+          <button class="btn" data-toggle="modal" data-target="#videl1">
+            觀看完整影片
+          </button>
+        </div>
+      </div>
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="videl1"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="videl1Title"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog modal-xl" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="videl1Title">完整影片</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body d-flex flex-column align-items-center">
+              <iframe
+                class="videos shadow-lg"
+                width="560"
+                height="500"
+                src="https://www.youtube.com/embed/kXVMlL1GEgQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                class="videos shadow-lg"
+                width="560"
+                height="500"
+                src="https://www.youtube.com/embed/3LaZpJAp6xw"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <iframe
+                class="videos shadow-lg"
+                width="560"
+                height="500"
+                src="https://www.youtube.com/embed/tGaZX4PoRKE"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                關閉
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top2">
+        <div class="titleTop">睡眠問題大檢測</div>
+        <div class="contents">
+          <div class="navs">
+            <span class="text1">
+              <img src="png/1/dot_1.png" />
+            </span>
+            <span class="text2">無法在30分鐘內入睡。</span>
+          </div>
+          <div class="navs">
+            <span class="text1"><img src="png/1/dot_1.png" /></span>
+            <span class="text2">會覺得冷。</span>
+          </div>
+          <div class="navs">
+            <span class="text1"><img src="png/1/dot_1.png" /></span>
+            <span class="text2">經常睡到半夜或凌晨就醒來。</span>
+          </div>
+          <div class="navs">
+            <span class="text1"><img src="png/1/dot_1.png" /></span>
+            <span class="text2">覺得躁熱。</span>
+          </div>
+          <div class="navs">
+            <span class="text1"><img src="png/1/dot_1.png" /></span>
+            <span class="text2">睡到一半起來上廁所。</span>
+          </div>
+          <div class="navs">
+            <span class="text1"><img src="png/1/dot_1.png" /></span>
+            <span class="text2">睡覺經常作惡夢。</span>
+          </div>
+          <div class="navs">
+            <span class="text1"><img src="png/1/dot_1.png" /></span>
+            <span class="text2">時常覺得呼吸不順暢。</span>
+          </div>
+          <div class="navs">
+            <span class="text1"><img src="png/1/dot_1.png" /></span>
+            <span class="text2">睡覺或睡醒總覺得腰酸背痛。</span>
+          </div>
+          <div class="navs">
+            <span class="text1"><img src="png/1/dot_1.png" /></span>
+            <span class="text2">大聲打鼾或咳嗽。</span>
+          </div>
+        </div>
+        <div class="footTop">
+          如果存在三個及以上的情況，說明您可能存在睡眠品質差的問題
+        </div>
+        <div class="text">出處：匹茲堡睡眠品質量表</div>
+      </div>
+      <div class="xian"></div>
+      <div class="top3">
+        <div class="topTop3">
+          <div class="leftTop scrollme">
+            <img
+              src="png/1/picture.png"
+              alt=""
+              class="leftImg animateme"
+              data-when="enter"
+              data-from="1"
+              data-to="0"
+              data-translatex="-600"
+            />
+          </div>
+          <div class="rightTop scrollme">
+            <div
+              class="rightTopTitle animateme"
+              data-when="enter"
+              data-from="1"
+              data-to="0"
+              data-translatex="600"
+            >
+              好的睡眠品質應該要...
+            </div>
+            <div class="rightTopContent scrollme">
+              <div
+                class="navs animateme"
+                data-when="enter"
+                data-from="1"
+                data-to="0"
+                data-translatex="500"
+              >
+                <img
+                  style="width: 5.972vw; height: 5.208vw"
+                  src="png/1/icon_1.png"
+                />
+                <div class="navsTExt">很快入睡，躺床30分鐘內就睡著。</div>
+              </div>
+              <div
+                class="navs animateme"
+                data-when="enter"
+                data-from="1"
+                data-to="0"
+                data-translatex="300"
+              >
+                <img
+                  style="width: 5.972vw; height: 4.931vw"
+                  src="png/1/icon_2.png"
+                />
+                <div class="navsTExt">半夜不會乍醒或很少起來，醒來時間短。</div>
+              </div>
+              <div
+                class="navs animateme"
+                data-when="enter"
+                data-from="1"
+                data-to="0"
+                data-translatex="500"
+              >
+                <img
+                  style="width: 5.972vw; height: 5.139vw"
+                  src="png/1/icon_3.png"
+                />
+                <div class="navsTExt">可以很快起床，起來後精神好。</div>
+              </div>
+              <div
+                class="navs animateme"
+                data-when="enter"
+                data-from="1"
+                data-to="0"
+                data-translatex="300"
+              >
+                <img
+                  style="width: 4.722vw; height: 5.208vw"
+                  src="png/1/icon_4.png"
+                />
+                <div class="navsTExt">白天頭腦清醒，工作效率高。</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="botTop3">使用枕頭時，我們有什麼壞習慣呢？</div>
+        <div class="botTop3Cont scrollme">
+          <img src="png/1/circle_1(1).png" />
+          <img src="png/1/circle_2(1).png" />
+          <img src="png/1/circle_3(1).png" />
+        </div>
+        <div class="botTop3Cont">
+          <div class="contNav">
+            <div class="contNavTitle">不躺枕頭</div>
+            <div class="contNavText">
+              頸部懸空無支撐力，造成頸部長期肌肉緊繃和壓迫。
+            </div>
+          </div>
+          <div class="contNav">
+            <div class="contNavTitle">睡姿亂躺</div>
+            <div class="contNavText">
+              沒有真正躺在枕頭上或只躺了一部分，容易造成落枕或頸部酸痛。
+            </div>
+          </div>
+          <div class="contNav">
+            <div class="contNavTitle">側睡趴躺</div>
+            <div style="z-index: 1" class="contNavText">
+              側睡過度成半趴，壓迫脊椎，造成脊椎肌肉緊繃以及長時間維持不良姿勢，容易出現錯位。
+            </div>
+          </div>
+        </div>
+        <div
+          style="
+            width: 100%;
+            height: 11.458vw;
+            z-index: 0;
+            position: absolute;
+            margin-top: -3vw;
+            background-color: #93434e;
+          "
+        ></div>
+      </div>
+      <div class="top4">
+        <div class="leftTop4 scrollme">
+          <div
+            class="Top4Title animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatex="-40"
+          >
+            專為追求睡眠品質的人群所設計
+          </div>
+          <div
+            class="top4Text animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatex="-40"
+          >
+            枕頭是睡眠的必要用品之一，你的睡眠品質好不好，它佔了重要的一部分。
+
+            <br /><br />頭部是人體重要的部位，它是身體一切的指揮中心，精神狀態、體內激素分泌、神經連接、思考邏輯等一切都跟它息息相關，而頸部是連接它與身體的唯一橋樑，所以，你的枕頭用的好不好，能不能讓它們得到真正的休息，對你身體和精神枕頭都影響很大。
+          </div>
+          <div
+            class="leftTop4TagGroup animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatex="-40"
+          >
+            <div class="leftTop4Tag">頸椎痠痛</div>
+            <div class="leftTop4Tag">失眠多夢</div>
+            <div class="leftTop4Tag">入睡困難</div>
+          </div>
+
+          <div
+            class="leftTop4TagGroup animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatex="-40"
+          >
+            <div class="leftTop4Tag">經常落枕</div>
+            <div class="leftTop4Tag">焦慮情緒</div>
+            <div class="leftTop4Tag">精神不佳</div>
+          </div>
+
+          <div
+            class="leftTop4TagGroup animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatex="-40"
+          >
+            <div class="leftTop4Tag">記憶力減退</div>
+          </div>
+        </div>
+        <div class="rightTop4 scrollme">
+          <img
+            class="animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatex="150"
+            src="png/1/bottom_picture.png"
+          />
+        </div>
+      </div>
+      <div class="top5 scrollme">
+        <div
+          class="top5Top animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatey="-15"
+        >
+          <div class="leftTop5">擁專利認證</div>
+          <div class="leftCenter">
+            <img src="png/1/3.png" />
+          </div>
+          <div class="leftTop5">全功能覆蓋</div>
+        </div>
+        <div
+          class="botTop5Cont1 animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatey="20"
+        >
+          <img style="width: 7.083vw; height: 5.208vw" src="png/1/icon1.png" />
+          <img style="width: 8.611vw; height: 4.167vw" src="png/1/icon2.png" />
+          <img style="width: 8.611vw; height: 4.653vw" src="png/1/icon3.png" />
+        </div>
+        <div
+          class="botTop5Cont1 animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatey="20"
+          style="margin-top: 0"
+        >
+          <div class="navsTop5">
+            <div class="top5Title">重力原理，調整所需高度</div>
+            <div class="top5Text">
+              正躺後因頭顱重量而自然下陷，獨家設計出適合頸椎的高低度。
+            </div>
+          </div>
+          <div class="navsTop5">
+            <div class="top5Title">滿足正側躺不同高度需求</div>
+            <div class="top5Text">
+              正躺的高度要求約為一個拳頭的高度，而側躺的高度要求約為一側肩寬高度。
+            </div>
+          </div>
+          <div class="navsTop5">
+            <div class="top5Title">平整表面輕鬆翻轉</div>
+            <div class="top5Text">
+              有別一般人體工枕凹槽設計，平整表面熟睡也能輕易翻轉。
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top6 scrollme">
+        <div
+          class="top6Top animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatey="-15"
+        >
+          <div>設計</div>
+          <img src="png/1/6.png" />
+          <div>重點</div>
+        </div>
+        <div class="top6Content scrollme">
+          <div
+            class="navsTop6 animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatey="-20"
+          >
+            <img src="png/1/circle_1.png" />
+            <div class="tops6Text">
+              後背凹槽設計，形成低彈性支撐頸部不壓迫。
+            </div>
+          </div>
+          <div
+            class="navsTop6 topsTwo animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatey="-20"
+          >
+            <img src="png/1/circle_2.png" />
+            <div class="tops6Text">肩膀貼合曲線，穩固睡姿不亂動。。</div>
+          </div>
+          <div
+            class="navsTop6 animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatey="-20"
+          >
+            <img src="png/1/circle_3.png" />
+            <div class="tops6Text">防側趴角，防止側趴傷害脊椎。</div>
+          </div>
+          <div
+            class="navsTop6 animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatey="20"
+          >
+            <img src="png/1/circle_4.png" />
+            <div class="tops6Text">表面平整輕鬆翻轉，暗藏正側躺高度設計。</div>
+          </div>
+          <div
+            class="navsTop6 topsTwo animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatey="20"
+          >
+            <img src="png/1/circle_5.png" />
+            <div class="tops6Text">彈性材質，支撐力到位。</div>
+          </div>
+          <div
+            class="navsTop6 animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatey="20"
+          >
+            <img src="png/1/circle_6.png" />
+            <div class="tops6Text">頸部貼合角度託護頭部。</div>
+          </div>
+        </div>
+      </div>
+      <div class="top7 scrollme">
+        <div
+          class="top7Left animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatex="-20"
+        >
+          <img src="png/1/buttom_picture_1.png" />
+        </div>
+        <div class="top7Right">
+          <div
+            style="
+              border: 0.139vw solid #93434e;
+              width: 0vw;
+              height: 5.139vw;
+              position: relative;
+              left: 8.333vw;
+              top: -1.042vw;
+              background-color: #93434e;
+            "
+          ></div>
+          <div style="margin-top: -6.25vw" class="top7RightTitle">側躺：</div>
+          <div class="top7RightText">
+            不壓迫肩膀，支撐頭頸部，符合脊椎舒適弧度。
+          </div>
+        </div>
+      </div>
+      <div class="top7 scrollme">
+        <div class="top7Right">
+          <div
+            style="
+              border: 0.139vw solid #93434e;
+              width: 0vw;
+              height: 5.139vw;
+              position: relative;
+              left: 8.333vw;
+              top: 0.208vw;
+              background-color: #93434e;
+            "
+          ></div>
+          <div class="top7RightTitle" style="margin-top: -4.931vw">正躺：</div>
+          <div class="top7RightText">
+            輕彈力支撐，自適應高度，頭頸脊舒適延展。
+          </div>
+        </div>
+        <div
+          class="top7Left animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatex="20"
+        >
+          <img src="png/1/buttom_picture_2.png" />
+        </div>
+      </div>
+      <div class="top8 scrollme">
+        <div
+          class="top8Top animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatey="50"
+        >
+          <span>好眠</span>
+          <img src="png/2/9.png" />
+          <span>特色</span>
+        </div>
+        <div
+          class="py-5 intro_1 animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatey="50"
+        >
+          <div
+            id="carouselExampleIndicators"
+            class="my-5 carousel slide"
+            data-ride="carousel"
+          >
+            <ol class="carousel-indicators">
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="0"
+                class="active"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="1"
+              ></li>
+              <li
+                data-target="#carouselExampleIndicators"
+                data-slide-to="2"
+              ></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="png/2/intro_1.png" />
+              </div>
+              <div class="carousel-item">
+                <img src="png/2/intro_1.png" />
+              </div>
+              <div class="carousel-item">
+                <img src="png/2/intro_1.png" />
+              </div>
+            </div>
+            <a
+              class="bg-secondary carousel-control-prev"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a
+              class="bg-secondary carousel-control-next"
+              href="#carouselExampleIndicators"
+              role="button"
+              data-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="intro_2 animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatey="50"
+        >
+          <img src="png/2/background_1_picture.png" />
+        </div>
+
+        <div class="intro_3 scrollme">
+          <img
+            class="animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatex="-50"
+            style="width: 100%"
+            src="png/2/good_pillow.png"
+          />
+        </div>
+      </div>
+      <div class="top9 scrollme">
+        <div
+          class="circcle animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatex="50"
+        >
+          <img src="png/2/circcle_1.png" />
+          <div class="box">
+            <div class="boxTitle">寬度大小</div>
+            <div class="boxText">
+              寬度不小於3個頭寬的大小，才能自由翻身。長度必須長於頭頂。
+            </div>
+          </div>
+        </div>
+        <div
+          class="circcle animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatex="50"
+        >
+          <img src="png/2/circcle_2.png" />
+          <div class="box">
+            <div class="boxTitle">高度比例</div>
+            <div class="boxText">
+              正躺側躺不一樣，正躺高度約為自己拳頭大小並貼合頸部曲線。側躺高度為一側肩膀寬。
+            </div>
+          </div>
+        </div>
+        <div
+          class="circcle animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatex="50"
+        >
+          <img src="png/2/circcle_3.png" />
+          <div class="box">
+            <div class="boxTitle">支撐力度</div>
+            <div class="boxText">
+              不論正躺或側躺都有足夠的支撐力保持高度不下陷，同時，不能過度支撐會造成壓迫。
+            </div>
+          </div>
+        </div>
+        <div
+          class="circcle animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatex="-50"
+        >
+          <img src="png/2/circcle_4.png" />
+          <div class="box">
+            <div class="boxTitle">呼吸順暢</div>
+            <div class="boxText">
+              適合的枕頭呼吸一定是順暢的，如果能直接達到腹式呼吸效果更好。
+            </div>
+          </div>
+        </div>
+        <div
+          class="circcle animateme"
+          data-when="enter"
+          data-from="1"
+          data-to="0"
+          data-translatex="-50"
+        >
+          <img src="png/2/circcle_5.png" />
+          <div class="box">
+            <div class="boxTitle">穩固貼合</div>
+            <div class="boxText">
+              貼合頸部並固定頭部，安穩睡眠，防止睡夢中亂動滑落而造成頸部酸痛或落枕。
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="top10">
+        <div class="top10Title">枕頭實測</div>
+        <div class="top10Contenter">
+          <div class="top10Nav">【 他牌枕頭 】</div>
+          <div class="top10Nav">【 龍師傅健康枕 】</div>
+        </div>
+        <div class="top10Contenter1 scrollme">
+          <div
+            class="NavLeft1 animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-translatex="-50"
+          >
+            輕托覆
+          </div>
+          <div
+            class="NavCenter1Left animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-opacity="0"
+            data-translatex="-80"
+          >
+            <img src="png/2/picture_1.png" />
+            <div class="NacCenter1Text">托覆力差 ， 頸部易痠痛</div>
+          </div>
+          <div
+            class="NavCenter1Middle animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0.2"
+            data-opacity="0"
+            data-translatex="-100"
+          >
+            <img src="png/2/picture_point_1.png" />
+          </div>
+          <div
+            class="NavCenter1Right animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0.3"
+            data-opacity="0"
+            data-translatex="-80"
+          >
+            <img src="png/2/picture_2.png" />
+            <div class="NacCenter1Text">輕托覆改善頸部壓力</div>
+          </div>
+        </div>
+        <div class="top10Contenter1 scrollme">
+          <div class="NavLeft1">穩固肩膀</div>
+          <div
+            class="NavCenter1Left animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-opacity="0"
+            data-translatex="-80"
+          >
+            <img src="png/2/picture_3.png" />
+            <div class="NacCenter1Text">肩頸滑落，睡姿不良</div>
+          </div>
+          <div
+            class="NavCenter1Middle animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0.2"
+            data-opacity="0"
+            data-translatex="-80"
+          >
+            <img src="png/2/picture_point_1.png" />
+          </div>
+          <div
+            class="NavCenter1Right animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0.3"
+            data-opacity="0"
+            data-translatex="-80"
+          >
+            <img src="png/2/picture_4.png" />
+            <div class="NacCenter1Text">防止滑落 ， 適當高度</div>
+          </div>
+        </div>
+        <div class="top10Contenter1 scrollme">
+          <div class="NavLeft1">防側趴角</div>
+          <div
+            class="NavCenter1Left animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0"
+            data-opacity="0"
+            data-translatex="-80"
+          >
+            <img src="png/2/picture_5.png" />
+            <div class="NacCenter1Text">翻覆趴睡 ， 頸椎易變形</div>
+          </div>
+          <div
+            class="NavCenter1Middle animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0.2"
+            data-opacity="0"
+            data-translatex="-80"
+          >
+            <img src="png/2/picture_point_1.png" />
+          </div>
+          <div
+            class="NavCenter1Right animateme"
+            data-when="enter"
+            data-from="1"
+            data-to="0.3"
+            data-opacity="0"
+            data-translatex="-80"
+          >
+            <img src="png/2/picture_6.png" />
+            <div class="NacCenter1Text">防側趴設計 ， 維持正常睡姿</div>
+          </div>
+        </div>
+      </div>
+      <div class="top11">
+        <img src="png/2/information.png" />
+        <div class="top11Title">龍師傅MIT生產製造</div>
+        <div class="top11Text">
+          龍師傅健康枕全程MIT生產製造，嚴格把關每個細節
+          符合國家SGS檢驗合格，用心監製品質有保障
+        </div>
+        <img src="png/2/circle_1.png" />
+      </div>
+      <div class="top12">
+        <div class="top12Title">龍師傅全新推出好眠健康枕</div>
+        <div class="content12">
+          <div class="nav12">
+            <img src="png/2/pillow_1.png" />
+          </div>
+          <div class="nav12">
+            <img src="png/2/pillow_2.png" />
+          </div>
+        </div>
+        <div class="content12">
+          <div class="nav12Text">簡單擁有好舒服</div>
+          <div class="nav12Text">就是要對你好版</div>
+        </div>
+        <div class="content12">
+          <div class="nav12Text1">
+            ˙基礎款˙
+            <br />
+            枕胎 / 含內裡布
+          </div>
+          <div class="nav12Text1">
+            ˙專業款˙
+            <br />
+            獨家贈送天絲棉枕套 / 枕胎 / 含內裡布
+          </div>
+        </div>
+        <div id="buy" class="header">
+          <span class="line"></span>
+          <span class="text" style="color: #93434e">官網獨享專案</span>
+          <span class="line"></span>
+        </div>
+        <div class="container">
+          <div class="navContainer navContainer4">
+            <div class="containTitle">好眠款 / 基礎</div>
+            <div class="xian1"></div>
+            <div class="qian">＄3,980</div>
+            <div class="qian1">＄2,880</div>
+            <a
+              target="_parent"
+              href="https://shop.twdragonvein.com/product/basic/"
+            >
+              <div class="containBtn">立即購買</div>
+            </a>
+          </div>
+          <div class="navContainer navContainer1">
+            <div class="containTitle">白金款 / 專業</div>
+            <div class="xian1"></div>
+            <div class="qian">＄4,200</div>
+            <div class="qian1">＄3,290</div>
+            <a
+              target="_parent"
+              href="https://shop.twdragonvein.com/product/pro/"
+            >
+              <div class="containBtn">立即購買</div>
+            </a>
+          </div>
+          <div class="navContainer navContainer2">
+            <div class="containTitle">好枕成雙/基礎</div>
+            <div class="xian1"></div>
+            <div class="qian">$7,960</div>
+            <div class="qian1">
+              $2,760
+              <span>/ 顆</span>
+            </div>
+            <div class="qianOrg">總額$5,520</div>
+            <a
+              target="_parent"
+              href="https://shop.twdragonvein.com/product/basictwo/"
+            >
+              <div class="containBtn">立即購買</div>
+            </a>
+          </div>
+          <div class="navContainer navContainer3">
+            <div class="containTitle">五人團購/基礎</div>
+            <div class="xian1"></div>
+            <div class="qian">$19,200</div>
+            <div class="qian1">
+              $2,560
+              <span>/ 顆</span>
+            </div>
+            <div class="qianOrg">總額$12,80 0</div>
+            <a
+              target="_parent"
+              href="https://shop.twdragonvein.com/product/5people/"
+            >
+              <div class="containBtn">立即購買</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="demo_img"></div>
+      <div class="top13">
+        <div class="top13Left">
+          <img src="png/3/picture.png" />
+        </div>
+        <div class="top13Right">
+          <div class="top13RightTitle">品牌故事</div>
+          <div class="top13RightText">
+            我們是龍師傅健康枕你的健康守護者，致力推廣重力舒眠、效率睡眠並守護你的夜夜好眠!我們是由一群多位工程師以及診療無數客戶的整復師所組成。
+            <br /><br />
+            整復師常因客戶的頸椎問題因而起心動念，經由結合現代科學原理融匯古今，進而研發出在睡眠中讓頸椎休息的枕頭，呼應《莊子·內篇·養生主》曰:「緣督以為經，可以保身，可以全生，可以養親，可以盡年。」
+            <br /><br />
+            希望讓人們在睡覺時也保養到頸腰椎，讓呼吸自然深沉，身心得到舒緩!每個認真生活的你，都能值得擁有一夜好眠。
+          </div>
+        </div>
+      </div>
+      <div class="top14">
+        <div id="question" class="top14Titel">常見問題</div>
+        <div class="top14Top closeM" onclick="ctrOpen('q1')" id="q1">
+          <div class="titlesTop14">
+            <span>Q1. 枕頭如何保養？</span>
+            <img class="closeIcon" src="png/3/2.png" />
+            <img class="openIcon" src="png/3/1.png" />
+          </div>
+          <div class="textTop14">
+            <span
+              >平時可放在通風處，乳膠產品存放時，不可壓重物、不要放置在潮濕空間。不可水洗、不可日曬。</span
+            >
+          </div>
+        </div>
+        <div class="top14Top closeM" onclick="ctrOpen('q2')" id="q2">
+          <div class="titlesTop14">
+            <span>Q2. 為什麼枕頭有個凹洞？</span>
+            <img class="closeIcon" src="png/3/2.png" />
+            <img class="openIcon" src="png/3/1.png" />
+          </div>
+          <div class="textTop14">
+            <span
+              >平時可放在通風處，乳膠產品存放時，不可壓重物、不要放置在潮濕空間。不可水洗、不可日曬。</span
+            >
+          </div>
+        </div>
+        <div class="top14Top closeM" onclick="ctrOpen('q3')" id="q3">
+          <div class="titlesTop14">
+            <span>Q3. 枕頭可以直接拿去水洗嗎？</span>
+            <img class="closeIcon" src="png/3/2.png" />
+            <img class="openIcon" src="png/3/1.png" />
+          </div>
+          <div class="textTop14">
+            <span
+              >平時可放在通風處，乳膠產品存放時，不可壓重物、不要放置在潮濕空間。不可水洗、不可日曬。</span
+            >
+          </div>
+        </div>
+        <div class="top14Top closeM" onclick="ctrOpen('q4')" id="q4">
+          <div class="titlesTop14">
+            <span>Q4. 乳膠枕的使用期限？</span>
+            <img class="closeIcon" src="png/3/2.png" />
+            <img class="openIcon" src="png/3/1.png" />
+          </div>
+          <div class="textTop14">
+            <span
+              >平時可放在通風處，乳膠產品存放時，不可壓重物、不要放置在潮濕空間。不可水洗、不可日曬。</span
+            >
+          </div>
+        </div>
+        <div class="top14Top closeM" onclick="ctrOpen('q5')" id="q5">
+          <div class="titlesTop14">
+            <span>Q5. 枕頭選購參考尺寸表</span>
+            <img class="closeIcon" src="png/3/2.png" />
+            <img class="openIcon" src="png/3/1.png" />
+          </div>
+          <div class="textTop14">
+            <span
+              >平時可放在通風處，乳膠產品存放時，不可壓重物、不要放置在潮濕空間。不可水洗、不可日曬。</span
+            >
+          </div>
+        </div>
+      </div>
+      <div class="top15">
+        <div class="top15Title">開陽科技有限公司</div>
+        <div class="top15Cont">
+          <span
+            >彰化縣和美鎮彰美路二段210號 ｜ Mizartw8@gmail.com ｜
+            047-354765</span
+          >
+        </div>
+      </div>
+      <div class="top16">
+        Copyright © 2020 Dragon Vien. All Rights Reserved.
+      </div>
+    </div>
+
+    <script>
+      setInterval(() => {
+        let text = document.querySelector(".top_bar_text").textContent;
+        document.querySelector(".top_bar_text").textContent =
+          text.substring(1, text.length) + text.charAt(0);
+      }, 600);
+      const ctrOpen = (qDivName) => {
+        console.log(qDivName);
+        if (
+          document.querySelector(`#${qDivName}`).className.indexOf("closeM") >
+          -1
+        ) {
+          document.querySelector(`#${qDivName}`).className = "top14Top";
+        } else {
+          document.querySelector(`#${qDivName}`).className = "top14Top closeM";
+        }
+      };
+      if (document.querySelector("body").offsetWidth >= 768) {
+        document.getElementById("main_video").play();
+      }
+    </script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

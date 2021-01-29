@@ -33,6 +33,17 @@ $("#menulist").click(function () {
   $("#menulist").fadeToggle("fast");
 });
 
+if (
+  $(window).width() > 768 &&
+  document.querySelector("#desktop_div iframe").src == ""
+) {
+  document.querySelector("#desktop_div iframe").src = "/desktop";
+}
 $(window).resize(function () {
-  console.log($(window).width());
+  if (
+    $(window).width() > 768 &&
+    document.querySelector("#desktop_div iframe").src == ""
+  ) {
+    document.querySelector("#desktop_div iframe").src = "/desktop";
+  }
 });
